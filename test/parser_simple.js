@@ -35,8 +35,11 @@ exports.parser_simple = {
 				double_underscore: true
 			}
 		});
+
 		_.each(['test.cpp', 'test.js', 'test.php', 'test.twig'], function(fixture) {
-			var result = parser.parse("./test/fixtures/" + fixture);
+			parser.reset();
+			parser.parse("./test/fixtures/" + fixture);
+			var result = parser.getMessages();
 			test.equal(result.length, 9, 'translatable messages found should equal 9');
 		});
 
