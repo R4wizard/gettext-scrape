@@ -1,0 +1,59 @@
+[
+  {
+    "type": "single",
+    "file": ".\/test\/fixtures\/test.cpp",
+    "line": 4,
+    "message": "[underscore] welcome to our test"
+  },
+  {
+    "type": "plural",
+    "file": ".\/test\/fixtures\/test.cpp",
+    "line": 6,
+    "message": "[underscore] we have completed %1 test",
+    "message_plural": "[underscore] we have completed %1 tests"
+  },
+  {
+    "type": "single",
+    "file": ".\/test\/fixtures\/test.cpp",
+    "line": 8,
+    "message": "[underscore] test completed"
+  },
+  {
+    "type": "single",
+    "file": ".\/test\/fixtures\/test.cpp",
+    "line": 11,
+    "message": "[double_underscore] welcome to our test"
+  },
+  {
+    "type": "plural",
+    "file": ".\/test\/fixtures\/test.cpp",
+    "line": 13,
+    "message": "[double_underscore] we have completed %1 test",
+    "message_plural": "[double_underscore] we have completed %1 tests"
+  },
+  {
+    "type": "single",
+    "file": ".\/test\/fixtures\/test.cpp",
+    "line": 15,
+    "message": "[double_underscore] test completed"
+  },
+  {
+    "type": "single",
+    "file": ".\/test\/fixtures\/test.cpp",
+    "line": 18,
+    "message": "[gettext] welcome to our test"
+  },
+  {
+    "type": "plural",
+    "file": ".\/test\/fixtures\/test.cpp",
+    "line": 20,
+    "message": "[gettext] we have completed %1 test",
+    "message_plural": "[gettext] we have completed %1 tests"
+  },
+  {
+    "type": "single",
+    "file": ".\/test\/fixtures\/test.cpp",
+    "line": 22,
+    "message": "[gettext] test completed"
+  }
+]

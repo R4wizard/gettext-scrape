@@ -1,0 +1,19 @@
+{{ _("[underscore] welcome to our test") }}
+{% for i in 1..10 %}
+	{{ _n("[underscore] we have completed %1 test", "[underscore] we have completed %1 tests", i) }}
+{% endfor %}
+{{ _("[underscore] test completed") }}
+
+
+{{ __("[double_underscore] welcome to our test") }}
+{% for i in 1..10 %}
+	{{ __n("[double_underscore] we have completed %1 test", "[double_underscore] we have completed %1 tests", i) }}
+{% endfor %}
+{{ __("[double_underscore] test completed") }}
+
+
+{{ gettext("[gettext] welcome to our test") }}
+{% for i in 1..10 %}
+	{{ ngettext("[gettext] we have completed %1 test", "[gettext] we have completed %1 tests", i) }}
+{% endfor %}
+{{ gettext("[gettext] test completed") }}

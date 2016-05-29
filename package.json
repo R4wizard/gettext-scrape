@@ -1,0 +1,36 @@
+{
+  "name": "gettext-scrape",
+  "description": "Generates POT files from source code",
+  "version": "0.1.0",
+  "homepage": "https://github.com/r4wizard/gettext-scrape",
+  "author": {
+    "name": "Peter Corcoran",
+    "email": "peter@lemondigits.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/r4wizard/gettext-scrape.git"
+  },
+  "bugs": {
+    "url": "https://github.com/r4wizard/gettext-scrape/issues"
+  },
+  "licenses": [
+    {
+      "type": "LGPL",
+      "url": "https://github.com/r4wizard/gettext-scrape/blob/master/LICENSE"
+    }
+  ],
+  "scripts": {
+    "test": "nodeunit"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "devDependencies": {
+    "nodeunit": "^0.9.1"
+  },
+  "dependencies": {
+    "lex": "^1.7.9",
+    "lodash": "^4.13.1"
+  }
+}

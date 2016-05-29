@@ -1,0 +1,52 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+
+#. The alignment (left or right) of your language
+msgid "align"
+msgstr ""
+
+#: ./test/fixtures/test.cpp:4
+msgid "[underscore] welcome to our test"
+msgstr ""
+
+#: ./test/fixtures/test.cpp:8
+msgid "[underscore] test completed"
+msgstr ""
+
+#: ./test/fixtures/test.cpp:11
+msgid "[double_underscore] welcome to our test"
+msgstr ""
+
+#: ./test/fixtures/test.cpp:15
+msgid "[double_underscore] test completed"
+msgstr ""
+
+#: ./test/fixtures/test.cpp:18
+msgid "[gettext] welcome to our test"
+msgstr ""
+
+#: ./test/fixtures/test.cpp:22
+msgid "[gettext] test completed"
+msgstr ""
+
+#: ./test/fixtures/test.cpp:6
+msgid "[underscore] we have completed %1 test"
+msgid_plural "[underscore] we have completed %1 tests"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ./test/fixtures/test.cpp:13
+msgid "[double_underscore] we have completed %1 test"
+msgid_plural "[double_underscore] we have completed %1 tests"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ./test/fixtures/test.cpp:20
+msgid "[gettext] we have completed %1 test"
+msgid_plural "[gettext] we have completed %1 tests"
+msgstr[0] ""
+msgstr[1] ""
+
